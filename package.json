@@ -1,0 +1,27 @@
+{
+  "name": "cucumber-protractor",
+  "version": "1.0.0",
+  "description": "Test Automation using Cucumber and protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/protractor/built/cli.js ./config/protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkyuvaraj/cucumber-protractor.git"
+  },
+  "author": "Yuvaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkyuvaraj/cucumber-protractor/issues"
+  },
+  "homepage": "https://github.com/hkyuvaraj/cucumber-protractor#readme",
+  "dependencies": {
+    "appium": "^1.5.3",
+    "cucumber": "^1.2.0",
+    "protractor": "^3.3.0",
+    "protractor-cucumber-framework": "^0.6.0",
+    "wd": "^0.4.0",
+    "wd-bridge": "0.0.2"
+  }
+}
