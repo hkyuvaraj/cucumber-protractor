@@ -4,7 +4,8 @@
   "description": "Test Automation using Cucumber and protractor",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/protractor/built/cli.js ./config/protractor.config.js"
+    "test": "node ./node_modules/protractor/built/cli.js ./config/protractor.config.js",
+	"test-ci": "NODE_ENV=ci node ./node_modules/protractor/built/cli.js ./config/protractor.config.env.ci.js"
   },
   "repository": {
     "type": "git",
